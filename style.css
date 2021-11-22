@@ -1,27 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.logo {
+  color: rgb(158 255 241);
+}
+.trk {
+  font-family: "Lobster Two", cursive;
+}
 
-.body {
-  background-color: #242122;
-}
-.btn-1 {
-  background-color: #3e64e0;
-  padding: 0.5rem;
-  border-radius: 2rem;
-}
-.navbar-brand {
-  font-family: "Original Surfer", cursive;
+.x {
+  color: rgb(158 255 241);
   font-size: 2.5rem;
 }
-.logo {
-  color: #3e64e0;
+.y {
+  color: chartreuse;
 }
-.img {
-  height: 30rem;
-  width: 35rem;
+.text-area {
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+.header {
+  background-image: url("https://i.ibb.co/71cPMbF/pexels-pixabay-33545.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  background-color: black;
+  position: absolute;
+}
+a.nav-link {
+  color: rgb(255, 255, 255);
+}
+.image-hero {
+  background-image: url("https://i.ibb.co/pZZrRnC/2.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 50vh;
+}
+.about-image {
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 80vh;
+  border: 3px solid rgb(95, 131, 128);
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgb(73, 85, 73);
 }
